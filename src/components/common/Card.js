@@ -14,7 +14,7 @@ const styles = {
     containerStyle : {
         borderWidth: 1,
         borderRadius: 2,
-        borderColor: '#ddd',
+        borderColor: '#f0932b',
         borderBottomWidth: 0,
         shadowColor:'#000',
         shadowOffset:{width:0 , height:2},

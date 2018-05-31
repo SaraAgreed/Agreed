@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {View, Text, Image, TouchableOpacity } from 'react-native';
+import {View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 
 export default class Home extends Component {
     static navigationOptions = {
@@ -8,14 +8,27 @@ export default class Home extends Component {
    
     render() {
         return(
-            <View 
+            <ScrollView 
             style={styles.container}>
             <View style={{ justifyContent:'flex-start', alignItems:'flex-start',padding:30}}>
                 <Image
                 style={styles.logo}
                 source={require('../Images/whitelogo.png')}
                 />
+                <Text style={[styles.heading,{color:'#f0932b'}]}>YOUR</Text>
+                <Text style={[styles.heading,{color:'#fff'}]}>DIGITAL MARKETING</Text>
+                <Text style={[styles.heading,{color:'#f0932b'}]}>AGENCY</Text>
+                <Text style={styles.fontStyle}>Start working with an SEO company that can provide everything you need to generate awareness, drive traffic, connect with customers, and increase sale.</Text>
+                <Text style={[styles.heading,{color:'#f0932b',textDecorationLine: 'underline',}]}>Our Services: </Text>
+                <Text style={styles.fontStyle}>*Search Engine Optimization</Text>
+                <Text style={styles.fontStyle}>*Pay-Per-Click</Text>
+                <Text style={styles.fontStyle}>*Social Media</Text>
+                <Text style={styles.fontStyle}>*Web Design</Text>
+                <Text style={styles.fontStyle}>*Wordpress</Text>
+                <Text style={styles.fontStyle}>*Mobile App Development</Text>    
             </View>
+
+
             <View style={{flex:1,justifyContent:'flex-end'}}>
             <View style={{height:40,}}>
               <TouchableOpacity
@@ -28,7 +41,7 @@ export default class Home extends Component {
                   </TouchableOpacity> 
                   </View>
             </View>
-            </View>  
+            </ScrollView>  
         );
     }
 }
@@ -60,7 +73,15 @@ const styles = {
         fontSize:16,
         fontWeight:'600',
         paddingTop:10,
-        paddingBottom:10
-        
+        paddingBottom:10  
+    },
+    heading: {
+        fontWeight:'600',
+        fontSize: 40,
+        fontFamily: 'serif'
+    },
+    fontStyle: {
+        color:'white', 
+        fontFamily:'serif'
     }
     };
