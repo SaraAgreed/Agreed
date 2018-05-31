@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
     StyleSheet,
+    Text,
     View,
     Image
 } from 'react-native';
@@ -23,6 +24,9 @@ export default class SplashScreen extends Component {
                 style={styles.logo}
                 source={require('../Images/agreedlogo.png')}
                 />
+                 <View>
+                    <Text style={{fontStyle:'italic',color:'white',fontFamily:'serif',textAlign:'center'}}>Online Marketing is Complex. Let Us Make It Easy For You!</Text>
+                </View> 
             </View>  
         );
     }

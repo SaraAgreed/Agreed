@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 
+
 export default class Home extends Component {
     static navigationOptions = {
         header:null
@@ -19,13 +20,14 @@ export default class Home extends Component {
                 <Text style={[styles.heading,{color:'#fff'}]}>DIGITAL MARKETING</Text>
                 <Text style={[styles.heading,{color:'#f0932b'}]}>AGENCY</Text>
                 <Text style={styles.fontStyle}>Start working with an SEO company that can provide everything you need to generate awareness, drive traffic, connect with customers, and increase sale.</Text>
-                <Text style={[styles.heading,{color:'#f0932b',textDecorationLine: 'underline',}]}>Our Services: </Text>
+                <Text style={[styles.heading,{color:'#f0932b',textDecorationLine: 'underline',}]}>Our Services:</Text>
                 <Text style={styles.fontStyle}>*Search Engine Optimization</Text>
                 <Text style={styles.fontStyle}>*Pay-Per-Click</Text>
                 <Text style={styles.fontStyle}>*Social Media</Text>
                 <Text style={styles.fontStyle}>*Web Design</Text>
                 <Text style={styles.fontStyle}>*Wordpress</Text>
-                <Text style={styles.fontStyle}>*Mobile App Development</Text>    
+                <Text style={styles.fontStyle}>*Mobile App Development</Text>   
+               
             </View>
 
 
@@ -83,5 +85,19 @@ const styles = {
     fontStyle: {
         color:'white', 
         fontFamily:'serif'
+    },
+    containerStyle: {
+            borderWidth: 1,
+            borderRadius: 5,
+            borderColor: '#f0932b',
+            shadowColor:'#000',
+            shadowOffset:{width:0 , height:2},
+            shadowOpacity:0.1,
+            shadowRadius:2,
+            elevation:1,
+            marginLeft:5,
+            marginRight:5,
+            marginTop:10
+        
     }
     };
