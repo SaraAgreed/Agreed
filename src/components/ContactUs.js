@@ -29,23 +29,20 @@ export default class ContactUs extends Component {
                     <Text style={styles.header}>ADDRESS:</Text>
                     <CardSection>
                         <View style={{flex:1, alignItems: 'center'}}>
-                            <Text style={styles.address}>New York Office</Text>
-                            <Text style={styles.address}>(40 Wall Street New York City, NY 10005</Text>
-                            <Text style={styles.address}> United States)</Text>
+                            <Text style={styles.countryStyle}>New York Office</Text>
+                            <Text style={styles.address}>40 Wall Street New York City, NY 10005, United States</Text>
                         </View>
                     </CardSection>
                     <CardSection>
                     <View style={{flex:1, alignItems: 'center'}}>
-                            <Text style={styles.address}>Toledo Office</Text>
-                            <Text style={styles.address}>(4331 N Holland Sylvania Rd, Toledo, OH 43623</Text>
-                            <Text style={styles.address}> United States)</Text>
+                            <Text style={styles.countryStyle}>Toledo Office</Text>
+                            <Text style={styles.address}>4331 N Holland Sylvania Rd, Toledo, OH 43623, United States</Text>
                             </View>
                     </CardSection>
-                    <CardSection>
+                    <CardSection style={{bordercolor:'black'}}>
                         <View style={{flex:1, alignItems: 'center'}}>
-                            <Text style={styles.address}>India Office</Text>
-                            <Text style={styles.address}>(3rd Floor, 2/8 Vivek Khand, Gomti nagar,</Text>
-                            <Text style={styles.address}>Lucknow, Uttar Pradesh 226010 India)</Text>
+                            <Text style={styles.countryStyle}>India Office</Text>
+                            <Text style={styles.address}>3rd Floor, 2/8 Vivek Khand, Gomti nagar, Lucknow, Uttar Pradesh 226010 India</Text>     
                         </View>
                     </CardSection>
                     </View>
@@ -69,6 +66,12 @@ const styles = {
         fontSize: 20,
     },
     address: {
-        color:'white'
+        color:'white',
+        textAlign:'center'
     },
+    countryStyle: {
+        fontWeight:'bold',
+        fontSize:18,
+        color:'white'
+    }
     };

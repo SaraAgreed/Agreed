@@ -1,0 +1,26 @@
+[
+    {"id": 0,
+    "title": "Search Engine Optimization",
+    "description": "SEO stands for Search engine optimization. Improving the performance of websites on search engines is known as SEO. Out of the ten most popular search engines in the US, Google tops the chart. Bing and Yahoo follow next."
+    },
+    {"id": 1,
+    "title": "Pay-Per-Click",
+    "description": "Google’s paid advertising is a powerful tool for companies who desire immediate results at a managed cost. With competition in the pay-per-click sector at an all-time high, you need a qualified, talented team of PPC Marketing and Google AdWords experts to put together the best possible strategy. Get the most out of your marketing budget with the fantastic Google Adwords packages by Agreed Technologies."
+    },
+    {"id": 2,
+    "title": "Social Media",
+    "description": "Agreed Technologies’ social media management service is devised to keep you in total control of your messages across various social media marketing platforms, and is based on understanding your own unique business challenges and marketing objectives. As with everything, one size rarely fits all and so our social media management service puts the focus clearly on what matters most to you and your company."
+    },
+    {"id": 3,
+    "title": "Web Design",
+    "description": "Web Design and Development has now evolved into an advanced stage from where all your website requirements which includes establishing conceptual framework, web interfaces, programmed system architecture, web services, and system support to database management can be accomplished effortlessly and in the most progressive manner. We develop an interactive platform that acts as interface between enterprise, its employees and its clients."
+    },
+    {"id": 4,
+    "title": "Wordpress",
+    "description": "We offer complete WordPress website design and development that includes branding, search engine optimization, and a focus on visitor conversions. While we use technology and code, we focus on the customer journey and the user experience. Our web design projects start at the search engine results page and migrate through content and call to actions. We want to help to help you create a digital transformation that is focused on your customer, their experience, and how this journey delivers revenue and ROI to you and your organization."
+    },
+    {"id": 5,
+    "title": "Mobile App Development",
+    "description": "App Store Optimization (ASO) is the process of improving the discoverability of your application in the Android Play Store and the Apple IOS Store. By increasing the visibility of your application in the app stores, you are driving traffic to your app page and encouraging users to download your application."
+    }
+]
